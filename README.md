@@ -58,6 +58,10 @@ Predictions are made on the test set.
 The model's performance is evaluated using accuracy, precision, recall, and F1 score.  
 A confusion matrix and ROC curve are plotted for better visualization of the model's performance. 
 
+Prediction:  
+New data is processed, and predictions are made using the trained model.  
+Results are visualized using a bar plot.  
+
 ---  
 
 # Explanation of Results  
@@ -97,7 +101,4 @@ By interpreting these results, stakeholders can make informed decisions about po
 
 
 
-Prediction:  
-New data is processed, and predictions are made using the trained model.  
-Results are visualized using a bar plot.  
 
