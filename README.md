@@ -62,11 +62,11 @@ A confusion matrix and ROC curve are plotted for better visualization of the mod
 
 # Explanation of Results  
 
-The results from our predictions provide an assessment of whether each individual in the new data is likely receiving SSDI benefits based on their earnings. Here’s an interpretation of the results:
+The results from our predictions provide an assessment of whether each individual in the new data is likely receiving SSDI benefits based on their earnings. Here’s an interpretation of the results:  
 
-           SSN  Earnings  Above_Threshold  Receiving_SSDI_Pred
-0  555-66-7777      1800             True                    1
-1  888-99-0000      1400            False                    0
+           SSN  Earnings  Above_Threshold  Receiving_SSDI_Pred  
+0  555-66-7777      1800             True                    1  
+1  888-99-0000      1400            False                    0  
 
 ### Individual with SSN 555-66-7777:
 Earnings: $1800
