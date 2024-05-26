@@ -26,9 +26,9 @@ We start by preparing the data, which includes SSNs, earnings, and SSDI status. 
 ## Data Visualization  
 
 To better understand our data, we use visualizations. Here are some key visualizations we use in this project:  
-1. **Distribution of Earnings: A histogram to show the distribution of earnings.
-2. **Confusion Matrix: A heatmap to visualize the model's performance.
-3. **ROC Curve: To evaluate the model's trade-off between true positive and false positive rates.
+1. Distribution of Earnings: A histogram to show the distribution of earnings.
+2. Confusion Matrix: A heatmap to visualize the model's performance.
+3. ROC Curve: To evaluate the model's trade-off between true positive and false positive rates.
 
 ## Model Training and Evaluation  
 
