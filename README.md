@@ -42,24 +42,23 @@ Finally, we use the trained model to make predictions on new data and visualize 
 
 ## Python Code Explanation  
 
-Data Preparation:
+Data Preparation:  
+The data is loaded into a DataFrame, and a new feature Above_Threshold is created to indicate if earnings exceed $1,550 per month.  
 
-The data is loaded into a DataFrame, and a new feature Above_Threshold is created to indicate if earnings exceed $1,550 per month.
-Visualization:
+Visualization:  
+A histogram is plotted to visualize the distribution of earnings in the dataset.  
 
-A histogram is plotted to visualize the distribution of earnings in the dataset.
-Model Training:
+Model Training:  
+The dataset is split into training and testing sets.  
+Features are standardized using StandardScaler.  
+A logistic regression model is trained on the training set.  
 
-The dataset is split into training and testing sets.
-Features are standardized using StandardScaler.
-A logistic regression model is trained on the training set.
-Model Evaluation:
+Model Evaluation:  
+Predictions are made on the test set.  
+The model's performance is evaluated using accuracy, precision, recall, and F1 score.  
+A confusion matrix and ROC curve are plotted for better visualization of the model's performance.  
 
-Predictions are made on the test set.
-The model's performance is evaluated using accuracy, precision, recall, and F1 score.
-A confusion matrix and ROC curve are plotted for better visualization of the model's performance.
-Prediction:
-
-New data is processed, and predictions are made using the trained model.
-Results are visualized using a bar plot.
+Prediction:  
+New data is processed, and predictions are made using the trained model.  
+Results are visualized using a bar plot.  
 
