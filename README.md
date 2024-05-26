@@ -74,25 +74,34 @@ The results from our predictions provide an assessment of whether each individua
  
 
 ### Individual with SSN 555-66-7777:
-Earnings: $1800
-Above_Threshold: True (since $1800 > $1550)
-Receiving_SSDI_Pred: 1 (predicted to be receiving SSDI benefits)
+Earnings: $1800  
+
+Above_Threshold: True (since $1800 > $1550)  
+
+Receiving_SSDI_Pred: 1 (predicted to be receiving SSDI benefits)  
+
 Interpretation: This individual earns more than the $1550 threshold and is predicted to be receiving SSDI benefits. This might flag them for further investigation to ensure compliance with SSDI regulations, as earning above the threshold typically suggests substantial gainful activity.
 
 ### Individual with SSN 888-99-0000:
 
-Earnings: $1400
-Above_Threshold: False (since $1400 <= $1550)
-Receiving_SSDI_Pred: 0 (not predicted to be receiving SSDI benefits)
+Earnings: $1400  
+
+Above_Threshold: False (since $1400 <= $1550)  
+
+Receiving_SSDI_Pred: 0 (not predicted to be receiving SSDI benefits)  
+
 Interpretation: This individual earns less than the $1550 threshold and is not predicted to be receiving SSDI benefits. This aligns with their earnings being below the threshold, which does not suggest substantial gainful activity.
 
 ## Key Takeaways
 Above_Threshold: This feature helps identify whether an individual's earnings exceed the allowed limit for SSDI recipients. If True, the individual earns more than $1550 per month.  
+
 Receiving_SSDI_Pred: This prediction indicates whether the individual is likely to be receiving SSDI benefits based on the logistic regression model. A value of 1 means they are predicted to be receiving benefits, while 0 means they are not.  
 
 ## Next Steps
 Further Investigation: For individuals predicted to be receiving SSDI benefits while earning above the threshold, further investigation may be warranted to verify their eligibility and compliance with SSDI regulations.  
+
 Model Refinement: Continue to gather more data and refine the model to improve its accuracy and reliability. Additional features, such as duration of earnings and more detailed financial data, could enhance the model’s predictive power.  
+
 By interpreting these results, stakeholders can make informed decisions about potential SSDI benefit fraud and take appropriate actions to ensure compliance and integrity within the system.  
 
 
