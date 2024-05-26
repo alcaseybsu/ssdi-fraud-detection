@@ -102,7 +102,7 @@ Further Investigation: For individuals predicted to be receiving SSDI benefits w
 
 Model Refinement: Continue to gather more data and refine the model to improve its accuracy and reliability. Additional features, such as duration of earnings and more detailed financial data, could enhance the model’s predictive power.  
 
-By interpreting these results, stakeholders can make informed decisions about potential SSDI benefit fraud and take appropriate actions to ensure compliance and integrity within the system.  
+By interpreting these results, officials can make informed decisions about potential SSDI benefit fraud and take appropriate actions to ensure compliance and integrity within the system.  
 
 
 
